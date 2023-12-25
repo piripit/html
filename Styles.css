@@ -43,6 +43,13 @@ nav a{
     align-items: center;
     height: 100vh; 
 }
+.box11{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
 .box2{
     background-image: url(serie.png);
     background-position: center;
@@ -87,6 +94,18 @@ nav a{
     flex-direction: column;
 }
 .text6{
+    color:white;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.text7{
+    color:white;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.text8{
     color:white;
     display: flex;
     padding: 10px;
@@ -141,6 +160,20 @@ nav a{
     text-decoration: none;
     font-weight: 400;
 }
+.buton7 a{
+    color: #2997ff;
+    font-size: 19px;
+    padding: 0 50px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.buton8 a{
+    color: #2997ff;
+    font-size: 19px;
+    padding: 0 50px;
+    text-decoration: none;
+    font-weight: 400;
+}
 .iphone-box{
     align-items: center;
     display: flex;
@@ -172,6 +205,16 @@ nav a{
     flex-direction: column;  
 }
 .iphone-box6{
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+.iphone-box7{
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+.iphone-box8{
     align-items: center;
     display: flex;
     flex-direction: column;  
@@ -214,12 +257,27 @@ nav a{
     color: white;
     text-align: center;
 }
-.text6 h3{
+.text6 h1{
     margin:0;
     color: white;
     text-align: center;
 }
-.text h6{
+.text7 h1{
+    margin:0;
+    color: black;
+    text-align: center;
+}
+.text7 h6{
+    margin:0;
+    color: black;
+    text-align: center;
+}
+.text8 h1{
+    margin:0;
+    color: white;
+    text-align: center;
+}
+.text h6{/*je ne sais pas*/
  text-align: center;
  margin-top: 10px;
  margin-bottom: 0px;
@@ -270,8 +328,23 @@ nav a{
     font-size: 20px;
     font-weight: 400;
 }
+.text7 h6{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text8 h6{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
 .ipad{
     background-image: url(ipad.png);
+    margin: 5px;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -279,28 +352,41 @@ nav a{
 }
 .mac{
     background-image: url(mac.png);
+    margin: 5px;
     background-position: center;
     background-size: cover;
     height: 100vh;
-    margin: 0;
+    
 }
 .home{
     background-image: url(home.png);
+    margin: 5px;
     background-position: center;
     background-size: cover;
     height: 100vh; 
 }
 .air{
     background-image: url(air.png);
+    margin: 5px;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.fit{
+    background-image: url(fitness.png);
+    margin: 5px;
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
-.box10 div{
-
+.cad{
+    background-image: url(cad.png);
+    margin: 5px;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
-
-
 
 
 
