@@ -387,6 +387,17 @@ nav a{
     background-size: cover;
     height: 100vh;
 }
+.pur{
+    display: flex;
+    justify-content:space-around;
+    margin: 5px;
+    padding: 10px;
+    height: 100vh;
+}
+.pur img{
+    max-width: 100vh;
+
+}
 
 
 
