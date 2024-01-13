@@ -1,5 +1,9 @@
 *{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+     
+}
 
 nav{
     display: flex;
@@ -7,8 +11,8 @@ nav{
     padding:-20px;
     justify-content:center;
     align-items: center; 
-    max-width: 100%;
-    
+    width: 100%;
+    position: fixed; 
 }
 nav a{
       text-decoration: none;
@@ -21,7 +25,8 @@ nav a{
     background-position: center;
     background-size: cover;
     height: 100vh;
-    padding: px;   
+    padding: 50px;
+     
 }
 .box1{
     background-image: url(fig.png);
@@ -54,13 +59,13 @@ nav a{
     background-image: url(serie.png);
     background-position: center;
     background-size: cover;
-    height: 100vh;  
+    height: 100vh;
 }
 
 .text{
     color: white;
     display: flex;
-    padding: 10px;
+    padding: 30px;
     flex-direction: column;
 }
 .text1{
@@ -219,7 +224,7 @@ nav a{
     display: flex;
     flex-direction: column;  
 }
-.text h3{
+.text h4{
     margin:0;
     font-size: 50px
 }
@@ -348,7 +353,6 @@ nav a{
     background-position: center;
     background-size: cover;
     height: 100vh;
-    margin: 0;  
 }
 .mac{
     background-image: url(mac.png);
@@ -363,7 +367,8 @@ nav a{
     margin: 5px;
     background-position: center;
     background-size: cover;
-    height: 100vh; 
+    height: 100vh;
+    
 }
 .air{
     background-image: url(air.png);
@@ -387,19 +392,33 @@ nav a{
     background-size: cover;
     height: 100vh;
 }
-.pur{
+.image-container {
     display: flex;
-    justify-content:space-around;
-    margin: 5px;
-    padding: 10px;
-    height: 100vh;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 0px;
+    margin: 0;
+    width: 100%;   
 }
-.pur img{
-    max-width: 100vh;
-
+.galerie img{
+    height: auto;
+    max-width: 100%;
 }
-
-
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+    text-align: center;  
+}
+.bas img{
+    height: auto;
+    max-width: 100%;
+      
+}
 
 
 
@@ -410,4 +429,3 @@ nav a{
 body{
     margin:0;
 }
-
