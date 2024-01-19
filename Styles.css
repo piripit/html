@@ -12,7 +12,8 @@ nav{
     justify-content:center;
     align-items: center; 
     width: 100%;
-    position: fixed; 
+    
+    
 }
 nav a{
       text-decoration: none;
@@ -398,6 +399,8 @@ nav a{
     justify-content: center;
     height: 100vh;
     width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
     
 }
 .tion img{
@@ -443,8 +446,6 @@ nav a{
 .point{
     display: flex;
     justify-content: center;
-    
-    height: 100vh;
 }
 .point ul {
     padding: -5px;
@@ -459,12 +460,43 @@ nav a{
     margin: 0 5px; 
 }
 .ecriture{
+    max-width: 50%;
+    margin: auto;
     
     
+    
+
+
+}
+.debut p{
+   
+}
+.ligne{
+    background-color: gray;
+}
+.lien{
+    display: flex;
+    justify-content:space-around;
+    
+    
+    
+}
+.disposition{
+    flex-direction: column;
+    display: flex;
+    margin-right: 40px;
+    font-size: medium;
+
+}
+.disposition a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
 }
 
 
 
 body{
-    margin:0;
+    
 }
+
